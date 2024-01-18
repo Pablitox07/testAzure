@@ -7,7 +7,7 @@ const port = 80;
 
 app.get("/", (req, res) => {
 
-    res.send("<h1>PABLITOX APP TEST #1 FRONT DOOR AND VNET INTEGRATION</h1>")
+    res.send("home.html")
 });
 
 app.listen(port, () => {
